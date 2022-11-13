@@ -6,7 +6,7 @@ html, body {
 }
 
 body {
-  background: url(../images/backgrounds/architecture.jpg) center no-repeat;
+  background-image: linear-gradient(red, yellow);
   background-size: cover;
   background-attachment: fixed;
   font-family: Helvetica, Arial, sans-serif;
@@ -16,12 +16,19 @@ body {
 .wrapper {
   margin: 0 auto;
   width: 60%;
-  padding-bottom: 40px;
+  padding: 40px;
+  background-color: whitesmoke;
+  border: solid;
+}
+.topHeading {
+  text-align: center;
+  background-color: black;
+  border-radius: 10px;
 }
 
 #content {
   padding: 20px;
-  background: rgba(255,255,255,.85);
+  background-color: whitesmoke;
 }
 
 h1, h2 {
